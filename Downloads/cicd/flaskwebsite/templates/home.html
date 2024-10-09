@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Willkommen im antiken Römischen Reich</h1>
+    <nav>
+        <a href="{{ url_for('home') }}">Startseite</a>
+        <a href="{{ url_for('history') }}">Geschichte</a>
+        <a href="{{ url_for('culture') }}">Kultur</a>
+        <a href="{{ url_for('famous_people') }}">Berühmte Personen</a>
+        <a href="{{ url_for('ancient_technology') }}">Technik</a>
+    </nav>
+
+    <p>Das Römische Reich ist eine der bedeutendsten und einflussreichsten Zivilisationen der Weltgeschichte. Von einer kleinen Stadt im Herzen Italiens zu einem mächtigen Imperium, das den gesamten Mittelmeerraum und darüber hinaus umfasste, hat Rom seine Spuren in der Politik, Kultur, Kunst und Technologie hinterlassen.</p>
+
+    <p>Diese Webseite wird dir einen tiefen Einblick in die faszinierende Welt des antiken Roms geben. Erfahre mehr über die Geschichte dieses Imperiums, seine bedeutenden Persönlichkeiten und die Technologien, die Rom zu einer der fortschrittlichsten Zivilisationen der Antike machten. Stöbere durch unsere Seiten und tauche ein in das Leben der Römer!</p>
+
+    <p>Beginne deine Reise mit einem Blick auf die <a href="{{ url_for('history') }}">Geschichte</a> des Römischen Reiches oder erkunde die kulturellen Errungenschaften, militärischen Innovationen und vieles mehr!</p>
+
+    <h2>Das Alltagsleben der Römer</h2>
+    <p>Das Alltagsleben der Römer war geprägt von verschiedenen sozialen Schichten und Aktivitäten. Von den prachtvollen Villen der Reichen bis zu den bescheideneren Behausungen der Arbeiter und Sklaven gab es große Unterschiede im Lebensstil. Die Römer legten großen Wert auf Bildung, und viele Jungen erhielten eine umfassende Ausbildung, während Mädchen oft auf das Haushaltsleben vorbereitet wurden.</p>
+
+    <h3>Wichtige Aspekte des Alltags</h3>
+    <ul>
+        <li><strong>Familie:</strong> Die Familie war das Herzstück der römischen Gesellschaft. Die Rolle des paterfamilias (Familienoberhaupt) war von zentraler Bedeutung.</li>
+        <li><strong>Bildung:</strong> Bildung war für Jungen und manchmal auch für Mädchen wichtig, vor allem in der Oberschicht.</li>
+        <li><strong>Freizeit:</strong> Sport, Theaterbesuche und das Essen in der Taverne waren beliebte Freizeitbeschäftigungen.</li>
+        <li><strong>Öffentliche Bäder:</strong> Die römischen Bäder waren ein Ort der Entspannung und des sozialen Austauschs.</li>
+    </ul>
+
+    <h2>Errungenschaften des Römischen Reiches</h2>
+    <p>Das Römische Reich war bekannt für seine zahlreichen Errungenschaften in verschiedenen Bereichen:</p>
+    <ul>
+        <li><strong>Architektur:</strong> Die Römer perfektionierten den Einsatz von Beton und entwickelten beeindruckende Bauwerke wie Aquädukte und Amphitheater.</li>
+        <li><strong>Rechtssystem:</strong> Das römische Recht bildete die Grundlage vieler moderner Rechtssysteme.</li>
+        <li><strong>Technologie:</strong> Fortschrittliche Techniken in der Ingenieurskunst und im Straßenbau trugen zur Effizienz des Reiches bei.</li>
+        <li><strong>Sprache:</strong> Latein wurde zur Lingua franca der westlichen Welt und beeinflusst bis heute viele Sprachen.</li>
+    </ul>
+
+    <h2>Warum die römische Geschichte relevant ist</h2>
+    <p>Die Lehren und Errungenschaften des Römischen Reiches haben die moderne Welt stark beeinflusst. Politische Strukturen, rechtliche Systeme und kulturelle Normen, die ihren Ursprung im antiken Rom haben, sind nach wie vor relevant und prägen unsere Gesellschaft. Die Analyse der römischen Geschichte bietet wertvolle Einblicke in Macht, Gesellschaft und Menschlichkeit.</p>
+
+    <p>Wir laden dich ein, die Wunder des antiken Roms zu entdecken und die reichen Geschichten, die es zu erzählen hat, zu erleben!</p>
+</body>
+</html>
