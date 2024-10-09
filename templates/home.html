@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Willkommen im antiken Römischen Reich</h1>
+    <nav>
+        <a href="{{ url_for('home') }}">Startseite</a>
+        <a href="{{ url_for('history') }}">Geschichte</a>
+        <a href="{{ url_for('culture') }}">Kultur</a>
+        <a href="{{ url_for('famous_people') }}">Berühmte Personen</a>
+        <a href="{{ url_for('ancient_technology') }}">Technik</a>
+    </nav>
+    <p>Das Römische Reich ist eine der bedeutendsten und einflussreichsten Zivilisationen der Weltgeschichte. Von einer kleinen Stadt im Herzen Italiens zu einem mächtigen Imperium, das den gesamten Mittelmeerraum und darüber hinaus umfasste, hat Rom seine Spuren in der Politik, Kultur, Kunst und Technologie hinterlassen.</p>
+
+    <p>Diese Webseite wird dir einen tiefen Einblick in die faszinierende Welt des antiken Roms geben. Erfahre mehr über die Geschichte dieses Imperiums, seine bedeutenden Persönlichkeiten und die Technologien, die Rom zu einer der fortschrittlichsten Zivilisationen der Antike machten. Stöbere durch unsere Seiten und tauche ein in das Leben der Römer!</p>
+
+    <p>Beginne deine Reise mit einem Blick auf die <a href="{{ url_for('history') }}">Geschichte</a> des Römischen Reiches oder erkunde die kulturellen Errungenschaften, militärischen Innovationen und vieles mehr!</p>
+</body>
+</html>
+

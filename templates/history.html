@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geschichte des Römischen Reiches</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Die Geschichte des Römischen Reiches</h1>
+    <nav>
+        <a href="{{ url_for('home') }}">Startseite</a>
+        <a href="{{ url_for('history') }}">Geschichte</a>
+        <a href="{{ url_for('culture') }}">Kultur</a>
+        <a href="{{ url_for('famous_people') }}">Berühmte Personen</a>
+        <a href="{{ url_for('ancient_technology') }}">Technik</a>
+    </nav>
+
+    <h2>Entstehung des Römischen Reiches</h2>
+    <p>Die Geschichte des Römischen Reiches beginnt mit der Gründung Roms im Jahr 753 v. Chr. durch Romulus, der als erster König der Stadt galt. Die Stadt entwickelte sich schnell und erlebte verschiedene Phasen, in denen sie ihre Macht und ihren Einfluss auf das gesamte Mittelmeergebiet ausdehnte. Roms strategische Lage und der Zugang zu wichtigen Handelsrouten trugen erheblich zu ihrem Wachstum bei.</p>
+
+    <h2>Königszeit</h2>
+    <p>Die Königszeit Roms erstreckte sich über 244 Jahre und umfasste sieben Könige. In dieser Zeit wurden viele der grundlegenden Institutionen Roms, wie der Senat, etabliert. Die letzte Königszeit endete mit der Vertreibung des letzten Königs Tarquinus Superbus, was zur Gründung der Republik führte. Die römische Gesellschaft begann sich in Klassen zu gliedern, und die politischen Machtstrukturen wurden neu gestaltet.</p>
+
+    <h2>Die Republik</h2>
+    <p>Die Römische Republik wurde im Jahr 509 v. Chr. gegründet und war geprägt von politischen Kämpfen zwischen Patriziern und Plebejern. Die Punischen Kriege (264–146 v. Chr.) gegen Karthago führten zur Vorherrschaft Roms im westlichen Mittelmeer und zur Eroberung von Gebieten wie Nordafrika und Spanien. Diese Kriege hatten jedoch auch tiefgreifende soziale und wirtschaftliche Auswirkungen auf Rom.</p>
+    <p>Die Bürgerkriege im 1. Jahrhundert v. Chr. führten zu einem Machtvakuum, das von Führern wie Gaius Marius, Lucius Cornelius Sulla und Julius Caesar ausgefüllt wurde. Der Sklavenaufstand unter Spartakus (73–71 v. Chr.) stellte eine bedeutende Herausforderung dar und verdeutlichte die sozialen Spannungen in der römischen Gesellschaft. Die politischen Unruhen endeten schließlich mit der Ermordung von Julius Caesar im Jahr 44 v. Chr.</p>
+
+    <h2>Die Kaiserzeit</h2>
+    <p>Mit dem Tod Caesars begann die Kaiserzeit, die mit der Herrschaft von Augustus (27 v. Chr. – 14 n. Chr.) als erstem Kaiser Roms formalisiert wurde. Diese Ära war geprägt von Frieden und Stabilität, bekannt als Pax Romana, und erstreckte sich über mehr als zwei Jahrhunderte. Augustus führte umfassende Reformen durch, die die Verwaltung Roms modernisierten und die Grenzen des Reiches schützten.</p>
+    <p>In den folgenden Jahrhunderten erlebte Rom eine Zeit des kulturellen Wachstums, der Architektur und der Expansion. Kaiser wie Trajan und Hadrian erweiterten das Reich bis an die Grenzen Schottlands und zur Donau. Doch innere Konflikte und wirtschaftliche Schwierigkeiten begannen das Reich zu belasten, während die militärische Präsenz an den Grenzen aufrechterhalten werden musste, um Invasionen abzuwehren.</p>
+    <p>Die Teilung des Reiches im Jahr 395 n. Chr. in West- und Ostrom markierte den Beginn des Niedergangs. Während das Westrom 476 n. Chr. unterging, blühte das Oströmische Reich weiter und entwickelte sich zum Byzantinischen Reich. Diese Veränderungen hatten tiefgreifende Auswirkungen auf Europa und die mediterrane Region.</p>
+
+    <h2>Ende</h2>
+    <p>Der Fall des Weströmischen Reiches im Jahr 476 n. Chr. wird oft als das Ende der Antike und der Beginn des Mittelalters betrachtet. Die letzten Kaiser wurden durch barbarische Invasionen abgesetzt, und das politische Machtvakuum führte zu einem Zerfall in Feudalstaaten. Rom selbst fiel in die Hände verschiedener germanischer Stämme, die die Stadt plünderten.</p>
+    <p>Die Zerschlagung des Reiches hatte weitreichende Folgen für das gesamte Europa, da es die politische, wirtschaftliche und soziale Struktur grundlegend veränderte. Die Kontrolle über das Mittelmeer ging verloren, und neue Machtzentren entstanden in den ehemaligen Provinzen. Diese Umwälzungen schufen die Grundlagen für die spätere Entwicklung europäischer Nationen.</p>
+
+    <h2>Erben</h2>
+    <p>Die Erben des Römischen Reiches sind vielfältig und beinhalten die kulturellen und rechtlichen Traditionen, die weiterhin Einfluss auf die moderne Welt haben. Die Idee des römischen Rechts lebt in vielen modernen Rechtssystemen fort. Auch die Architektur und die Ingenieurskunst der Römer sind bedeutende Inspirationsquellen für viele heutige Bauwerke.</p>
+    <p>Das Byzantinische Reich, das bis ins 15. Jahrhundert existierte, war das direkte Erbe Roms im Osten und bewahrte viele römische Traditionen und das Wissen der Antike. Zudem fanden die kulturellen und wissenschaftlichen Errungenschaften der Römer ihren Weg in die Renaissance, was zu einer Wiederbelebung des Interesses an der klassischen Antike führte.</p>
+
+    <h3>Karte des Römischen Reiches</h3>
+    <p>Unten siehst du eine Karte, die die Ausdehnung des Römischen Reiches während seiner Blütezeit zeigt:</p>
+    
+    <img src="{{ url_for('static', filename='20060606120545!Roman_Republic_Empire_map.gif') }}" alt="Karte des Römischen Reiches">
+    
+    <!-- Quelle hinzufügen -->
+    <p style="font-size: 0.9em;">Quelle: 
+        <a href="https://upload.wikimedia.org/wikipedia/commons/archive/e/ea/20060606120545%21Roman_Republic_Empire_map.gif" target="_blank">
+            Wikimedia Commons
+        </a>
+    </p>
+
+</body>
+</html>
